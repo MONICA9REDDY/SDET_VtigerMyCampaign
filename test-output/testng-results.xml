@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="64" started-at="2021-04-19T16:16:53 IST" finished-at="2021-04-19T16:16:53 IST">
+  <suite name="Default suite" duration-ms="63" started-at="2021-04-19T17:03:51 IST" finished-at="2021-04-19T17:03:51 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="64" started-at="2021-04-19T16:16:53 IST" finished-at="2021-04-19T16:16:53 IST">
+    <test name="Default test" duration-ms="63" started-at="2021-04-19T17:03:51 IST" finished-at="2021-04-19T17:03:51 IST">
       <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc">
-        <test-method status="PASS" signature="beforesuite()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="beforesuite" is-config="true" duration-ms="15" started-at="2021-04-19T16:16:53 IST" finished-at="2021-04-19T16:16:53 IST">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="beforesuite" is-config="true" duration-ms="16" started-at="2021-04-19T17:03:51 IST" finished-at="2021-04-19T17:03:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method status="FAIL" signature="launchBrowser()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2021-04-19T16:16:53 IST" finished-at="2021-04-19T16:16:53 IST">
+        <test-method status="FAIL" signature="launchBrowser()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2021-04-19T17:03:51 IST" finished-at="2021-04-19T17:03:51 IST">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[.\SDET.Vtiger_MyCampaigns\data\commonData.property (The system cannot find the path specified)]]>
@@ -56,7 +56,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="SKIP" signature="Mass_Edit_CampaignTC()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="Mass_Edit_CampaignTC" duration-ms="0" started-at="2021-04-19T16:16:53 IST" finished-at="2021-04-19T16:16:53 IST">
+        <test-method status="SKIP" signature="Mass_Edit_CampaignTC()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="Mass_Edit_CampaignTC" duration-ms="0" started-at="2021-04-19T17:03:51 IST" finished-at="2021-04-19T17:03:51 IST">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[.\SDET.Vtiger_MyCampaigns\data\commonData.property (The system cannot find the path specified)]]>
@@ -101,19 +101,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Mass_Edit_CampaignTC -->
-        <test-method status="SKIP" signature="logintoapp()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="logintoapp" is-config="true" duration-ms="-1618829213159" started-at="2021-04-19T16:16:53 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="logintoapp()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="logintoapp" is-config="true" duration-ms="-1618832031494" started-at="2021-04-19T17:03:51 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoapp -->
-        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="closeBrowser" is-config="true" duration-ms="-1618829213175" started-at="2021-04-19T16:16:53 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="closeBrowser" is-config="true" duration-ms="-1618832031510" started-at="2021-04-19T17:03:51 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="SKIP" signature="logoutfromApp()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="logoutfromApp" is-config="true" duration-ms="-1618829213175" started-at="2021-04-19T16:16:53 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="logoutfromApp()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="logoutfromApp" is-config="true" duration-ms="-1618832031510" started-at="2021-04-19T17:03:51 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutfromApp -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-04-19T16:16:53 IST" finished-at="2021-04-19T16:16:53 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc@30a3107a]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-04-19T17:03:51 IST" finished-at="2021-04-19T17:03:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

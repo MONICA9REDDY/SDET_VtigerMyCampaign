@@ -83,7 +83,7 @@ public class Baseclass {
 		lp.loginToApp(fu.readDataFromPropFile(IConstants.propfilepath, "username"), fu.readDataFromPropFile(IConstants.propfilepath, "password"));
 
 	} 
-	  //
+	  
 	
 	@AfterMethod
 	public void logoutfromApp() {
