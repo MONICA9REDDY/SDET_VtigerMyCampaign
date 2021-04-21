@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_15_AdvancedSearchForSecondDpDn">
+        <methods>
+          <include name="MyCampaigns_AdvancedSearchForSecondDpDn"/>
+          <include name="beforesuite"/>
+          <include name="afterSuite"/>
+          <include name="logintoapp"/>
+          <include name="logoutfromApp"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_15_AdvancedSearchForSecondDpDn -->
+      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_12_MEDispOldData">
+        <methods>
+          <include name="MyCampaigns_MassEditOldData"/>
+          <include name="beforesuite"/>
+          <include name="afterSuite"/>
+          <include name="logintoapp"/>
+          <include name="logoutfromApp"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_12_MEDispOldData -->
+      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_14_AdvancedSearchForFirstDpDn">
+        <methods>
+          <include name="beforesuite"/>
+          <include name="afterSuite"/>
+          <include name="MyCampaigns_AdvancedSearchForFirstDpDn"/>
+          <include name="logintoapp"/>
+          <include name="logoutfromApp"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_14_AdvancedSearchForFirstDpDn -->
+      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_13_WorldClockPopUP">
+        <methods>
+          <include name="beforesuite"/>
+          <include name="afterSuite"/>
+          <include name="MyCampaigns_ShowWorldClock"/>
+          <include name="logintoapp"/>
+          <include name="logoutfromApp"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_13_WorldClockPopUP -->
+      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_11_MassEditForMandatoryFields">
+        <methods>
+          <include name="beforesuite"/>
+          <include name="afterSuite"/>
+          <include name="logintoapp"/>
+          <include name="logoutfromApp"/>
+          <include name="launchBrowser"/>
+          <include name="MyCampaigns_MassEditForMandtoryFields"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_11_MassEditForMandatoryFields -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

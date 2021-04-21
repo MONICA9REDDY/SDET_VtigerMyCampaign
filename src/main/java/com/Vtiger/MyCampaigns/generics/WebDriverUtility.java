@@ -26,7 +26,7 @@ package com.Vtiger.MyCampaigns.generics;
 		 * Wait until Page is loaded
 		 */
 		public void implicitwait(WebDriver driver) {
-			driver.manage().timeouts().implicitlyWait(IConstants.implicitwaittime, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(IConstants.implicitwait, TimeUnit.SECONDS);
 		}
 		/**
 		 * Wait until Given element is clickable
@@ -34,7 +34,7 @@ package com.Vtiger.MyCampaigns.generics;
 		 */
 		public void elementisclickable(WebDriver driver,WebElement element) 
 		{
-			WebDriverWait wait = new WebDriverWait(driver, IConstants.explicitwaittime);
+			WebDriverWait wait = new WebDriverWait(driver, IConstants.explicitwait);
 			wait.until(ExpectedConditions.elementToBeClickable(element));
 		}
 		/**
@@ -191,6 +191,15 @@ package com.Vtiger.MyCampaigns.generics;
 				Thread.sleep(500);
 				count++;
 			}
+		}
+
+		public void selectdropdown(WebElement inDDL, WebElement inDDL1) {
+			// TODO Auto-generated method stub
+			
+		}
+		public void selectdropdown1(WebElement inDDL, WebElement inDDL2) {
+			// TODO Auto-generated method stub
+			
 		}
 	}
 

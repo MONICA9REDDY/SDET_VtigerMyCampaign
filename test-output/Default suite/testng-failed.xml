@@ -3,17 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc">
+      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_11_MassEditForMandatoryFields">
         <methods>
-          <include name="Mass_Edit_CampaignTC"/>
           <include name="beforesuite"/>
           <include name="afterSuite"/>
           <include name="logintoapp"/>
           <include name="logoutfromApp"/>
           <include name="launchBrowser"/>
+          <include name="MyCampaigns_MassEditForMandtoryFields"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc -->
+      </class> <!-- MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_11_MassEditForMandatoryFields -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

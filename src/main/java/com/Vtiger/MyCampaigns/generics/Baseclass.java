@@ -1,5 +1,4 @@
 package com.Vtiger.MyCampaigns.generics;
- 
 
 import java.io.IOException;
 
@@ -47,7 +46,6 @@ public class Baseclass {
 	 * Launch Browser and get the URL
 	 * @throws IOException
 	 */
-	
 	@BeforeClass
 	public void launchBrowser() throws IOException {
 
@@ -55,7 +53,7 @@ public class Baseclass {
 		
 
 		if(BROWSER.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 			driver= new ChromeDriver();
 		}
 		else if(BROWSER.equalsIgnoreCase("firefox")) {
@@ -65,9 +63,10 @@ public class Baseclass {
 		else if(BROWSER.equalsIgnoreCase("ie")) {
 			driver= new InternetExplorerDriver();
 		}
+		
 		wdu.maximizewindow(driver);
 		wdu.implicitwait(driver);
-		driver.get(fu.readDataFromPropFile(IConstants.propfilepath, "url"));
+		driver.get(fu.readDataFromPropFile(IConstants.propfilepath,"url"));
 	}
 
 	
@@ -80,7 +79,7 @@ public class Baseclass {
 	@BeforeMethod
 	public void logintoapp() throws IOException {
 		LoginPage lp = new LoginPage(driver);
-		lp.loginToApp(fu.readDataFromPropFile(IConstants.propfilepath, "username"), fu.readDataFromPropFile(IConstants.propfilepath, "password"));
+		lp.loginToApp(fu.readDataFromPropFile(IConstants.propfilepath,"username"),fu.readDataFromPropFile(IConstants.propfilepath, "password"));
 
 	} 
 	  
@@ -91,6 +90,9 @@ public class Baseclass {
 		hp.setLogout();
 	}
 	
+}
+
+	
 	
 
-}
+

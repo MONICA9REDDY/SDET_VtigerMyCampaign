@@ -22,15 +22,25 @@ public class HomePage {
 	public WebElement getCampaigns() {
 		return Campaigns;
 		}
+	@FindBy(xpath="img[@src='themes/softed/images/btnL3Clock.gif']")
+	private WebElement WorldClockIcon;
 	
+	public WebElement getWorldClockIcon() {
+		return WorldClockIcon;
+		}
+	@FindBy(xpath="//select[@id='fcol0']")
+	private WebElement Advancesearch;
+
+	public WebElement getAdvancesearch() {
+		return Advancesearch;
+	}
 	@FindBy(xpath ="//img[contains(@src,'user.PNG')]")
 	private WebElement administrationImg;
 
-	@FindBy(linkText = "Sign Out")
+	@FindBy(xpath="a[@href='index.php?module=Users&action=Logout']")
 	private WebElement signOutLink;
 
 	 
-	
 	public HomePage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver,this);

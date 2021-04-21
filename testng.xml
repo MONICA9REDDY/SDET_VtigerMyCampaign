@@ -3,9 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.AppTest"/>
-      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.OrganizationModule"/>
-      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.Campaign_MassEdit_tc"/>
+     
+      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_11_MassEditForMandatoryFields"/>
+       <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_12_MEDispOldData"/>
+      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_13_WorldClockPopUP"/>
+       <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_14_AdvancedSearchForFirstDpDn"/>
+      <class name="MavenPro_TYSS.SDET.Vtiger_MyCampaigns_TestScripts.TestCase_15_AdvancedSearchForSecondDpDn"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
